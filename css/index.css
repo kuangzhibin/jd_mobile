@@ -1,0 +1,101 @@
+body{
+  background: #ddd;
+  padding-bottom: 20px;
+}
+
+.jd_container{
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+
+  margin: 0 auto;
+  background: #eee
+}
+
+.jd_header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+}
+
+.jd_header_box{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  min-width: 320px;
+  max-width: 640px;
+
+  margin: 0 auto;
+}
+.jd_header_box a {
+   position: absolute;
+  top: 0;
+}
+.jd_header_box .icon_logo{
+  left: 0;
+  display: block;
+  width: 60px;
+  height: 40px;
+  background: #ddd;
+}
+.jd_header_box .link_login{
+  right: 0;
+  display: block;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.jd_header_box .js_search{
+  width: 100%;
+  height: 40px;
+  padding: 0 50px 0 60px;
+}
+.jd_header_box .js_search input{
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.jd_banner{
+  height: 240px;
+}
+.jd_nav{
+  overflow: hidden;
+  background: #fff;
+  padding-top: 8px;
+
+}
+.jd_nav_item{
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+.jd_nav_item a{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.jd_nav_item img{
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  display: block;
+}
+.jd_nav_item p{
+  text-align: center;
+  padding: 3px 0 8px;
+}
+
+
+.jd_product{
+  background: #fff;
+  margin-top: 5px;
+  height: 220px;
+  box-shadow: 0 1px 1px #dfdfdf;
+}

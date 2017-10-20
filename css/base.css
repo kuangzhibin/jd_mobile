@@ -1,0 +1,29 @@
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #333;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout：none;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+input, textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+ul, li{
+  list-style: none;
+}
